@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="invoice">
+
+        <div class="company-section">
+            <h1>Zylker Electronics Hub</h1>
+             <p>
+                Northern Street,<br>
+                Greater South Avenue,<br>
+                New York,<br>
+                New York 10001, U.S.A.
+            </p>
+        </div>
+        <div class="invoice-info">
+            <div class="invoice-details">
+                <div class="label">
+                    <p>Invoice</p>
+                    <p>Invoice Date</p>
+                    <p>Terms</p>
+                    <p>Due Date</p>
+                </div>
+                <div class="value">
+                    <p>INV-00128</p>
+                    <p>5th August, 2025</p>
+                    <p>Due on Receipt</p>
+                    <p>19.01.2025</p>
+                </div>
+            </div>
+            <div class="empty-box"></div>
+        </div>
+        <div class="address-heading">
+            <div>Bill To</div>
+            <div>Ship To</div>
+        </div>
+        <div class="address-section">
+            <div class="address-box">
+                <h3>Ms. Mary D. Dunton</h3>
+                <p>
+                    1324 Hinkle Lake Road<br>
+                    Needham<br>
+                    07199 Maine
+                </p>
+            </div>
+            <div class="address-box">
+                <p>
+                    1324 Hinkle Lake Road<br>
+                    Needham<br>
+                    07199 Maine
+                </p>
+            </div>
+        </div>
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th class="number"> </th>
+                    <th class="description">Item Description</th>
+                    <th class="qty">Qty</th>
+                    <th class="rate">Rate</th>
+                    <th class="amount">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="number">1.</td>
+                    <td class="description">
+                        <strong>Camera</strong>
+                        <span>
+                            DSLR Camera with Advance Shooting<br>
+                            Capabilities
+                        </span>
+                    </td>
+                    <td class="qty">1.00</td>
+                    <td class="rate">$899.00</td>
+                    <td class="amount">$899.00</td>
+                </tr>
+                <tr>
+                    <td class="number">2.</td>
+
+                    <td class="description">
+                        <strong>Fitness Tracker</strong>
+                        <span>
+                            Activity tracker with heart rate monitoring<br>
+                            Capabilities
+                        </span>
+                    </td>
+                    <td class="qty">1.00</td>
+                    <td class="rate">$129.00</td>
+                    <td class="amount">$129.00</td>
+                </tr>
+                <tr>
+                    <td class="number">3.</td>
+
+                    <td class="description">
+                        <strong>Laptop</strong>
+                        <span>
+                            Lightweight laptop with a powerful processor<br>
+                            Capabilities
+                        </span>
+                    </td>
+                    <td class="qty">1.00</td>
+                    <td class="rate">$1,199.00</td>
+                    <td class="amount">$1,199.00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="subtotal">
+                        SubTotal
+                    </td>
+
+                    <td class="amount subtotal-value">
+                        $2,227.00
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <div class="invoice-bottom">
+            <h2>INVOICE</h2>
+        </div>
+    </div>
+</body>
+</html>
